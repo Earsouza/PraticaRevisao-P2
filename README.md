@@ -1,2 +1,2 @@
-# Pr-tica-de-Revis-o-P2-
+# PráticadeRevisao-P2
 Sistema Conta Bancária
