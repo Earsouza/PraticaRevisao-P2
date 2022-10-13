@@ -1,11 +1,11 @@
 package conta;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 public abstract class Pessoa {
 
 	private String nome;
-	private Date dataNasc;
+	private LocalDate dataNasc;
 	private String email;
 
 	public String getNome() {
@@ -16,12 +16,12 @@ public abstract class Pessoa {
 		this.nome = nome;
 	}
 
-	public Date getDataNasc() {
+	public LocalDate getDataNasc() {
 		return dataNasc;
 	}
 
-	public void setDataNasc(Date dataNasc) {
-		this.dataNasc = dataNasc;
+	public void setDataNasc(LocalDate dataNasc2) {
+		this.dataNasc = dataNasc2;
 	}
 
 	public String getEmail() {
